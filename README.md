@@ -45,7 +45,7 @@ PokeApp was developed using the following technologies and libraries.
 
 ## Live demo
 
-Soon...
+Live application can be found [here](https://pokeapp-7u4.pages.dev/)
 
 ## Steps of installation
 
