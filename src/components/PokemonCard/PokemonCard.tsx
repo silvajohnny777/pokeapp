@@ -22,6 +22,7 @@ export const PokemonCard = ({ name = "", pokemonImage = "" }: pokemonTypes) => {
       tabIndex={0}
       onClick={(event: React.SyntheticEvent) => selectPokemon(event, name)}
       onKeyDown={(event: React.SyntheticEvent) => selectPokemon(event, name)}
+      aria-label={`Pokemon card for ${name}`}
     >
       <div>
         <img

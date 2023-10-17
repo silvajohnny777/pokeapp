@@ -33,6 +33,7 @@ export const PokemonList = () => {
               click={() => {
                 getPokemons(state.previousPath);
               }}
+              aria-label="Button to previous page"
             />
           )}
 
@@ -43,6 +44,7 @@ export const PokemonList = () => {
               click={() => {
                 getPokemons(state.nextPath);
               }}
+              aria-label="Button to next page"
             />
           )}
         </div>

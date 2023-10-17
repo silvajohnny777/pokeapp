@@ -48,6 +48,9 @@ export const Pokemon = () => {
                     ? "bg-[red] text-[white]"
                     : "bg-[white] text-[red]"
                 } hover:bg-[red] hover:text-white text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center mt-4`}
+                aria-label={`Button to ${
+                  isFavourite ? "remove" : "add"
+                } pokemon to favourites list`}
                 onClick={() =>
                   HandleFavourite(
                     pokemonDetails!.name,
